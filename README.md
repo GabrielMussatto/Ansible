@@ -19,7 +19,7 @@ Este repositório documenta a automação de servidores na AWS utilizando Ansibl
    - Transferência das chaves via `scp`
    - Conexão via SSH:
      ```bash
-     ssh -i "chaveControlNode.pem" ubuntu@<ip-da-instância>
+     ssh -i "chaveControlNode.pem" ubuntu@ec2-56-124-67-85.sa-east-1.compute.amazonaws.com
      ```
 
 2. **Instalação e Configuração do Ansible:**
